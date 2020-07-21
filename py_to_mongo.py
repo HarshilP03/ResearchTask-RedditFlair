@@ -8,11 +8,11 @@ mycol = mydb["rd_data"]
 
 record = []
 
-reddit = praw.Reddit(client_id='bHR-mvDC2TTuww', 
-                     client_secret='2UTEBovi2dvNHrDNTY2I6KAInjU', 
-                     user_agent='myfirstapp', 
-                     username='EltronProtoN',  
-                     password='samosa03')
+reddit = praw.Reddit(client_id='###########', 
+                     client_secret='#######', 
+                     user_agent='#########', 
+                     username='#########',  
+                     password='######')
 
 flair_type = ["Reddiquette","Policy","Politics","AskIndia","Non-Political"]
 subreddit = reddit.subreddit('india')
